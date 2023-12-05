@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded",()=>{
             newCSS.rel = 'stylesheet';
             newCSS.href = '/components/header/header.css';
             document.head.appendChild(newCSS);
-
             $(".toggle-header").on("click",()=>{
                 $(".header nav").toggleClass("visible")
             })
@@ -17,12 +16,6 @@ document.addEventListener("DOMContentLoaded",()=>{
                     $(".header nav").removeClass("visible")
                 }
             })
-            if (localStorage.getItem("localuser")) {
-                $("#loginButtons").html(
-                `
-                    <a href="/pages/write/" class="btn btn--secondary">Escribir</a>
-                `)
-            }
         })
     
     fetch('/components/footer/footer.html')
