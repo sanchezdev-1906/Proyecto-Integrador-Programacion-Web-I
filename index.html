@@ -14,8 +14,61 @@
 </head>
 
 <body>
+    <header class="header">
+        <div class="nav-container">
+            <button type="button" class="toggle-header">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <a href="./" class="logo-link">
+                <img src="./assets/logo/logo.svg" alt="Logo Dover">
+            </a>
+        </div>
+        <nav>
+            <div class="nav-container">
+                <button type="button" class="toggle-header">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <a href="./" class="logo-link">
+                    <img src="./assets/logo/logo.svg" alt="Logo Dover">
+                </a>
+            </div>
+
+            <form class="form" class="form--search">
+                <input type="text" name="" id="" placeholder="Busqueda">
+                <button type="submit">Buscar</button>
+            </form>
+
+            <ul class="navbar">
+                <li class="navbar__item"><a href="./">Inicio</a></li>
+                <li class="navbar__item"><a href="./pages/explore/
+                    ">Explorar</a></li>
+                <li class="navbar__item"><a href="./pages/">Tienda</a></li>
+            </ul>
+            <div id="loginButtons" class="buttons">
+                <a href="./pages/login/index.html?action=login" class="btn btn--primary">Ingresar</a>
+                <a href="./pages/login/index.html?action=sign" class="btn btn--secondary">Registrarse</a>
+            </div>
+
+        </nav>
+    </header>
     <main>
     </main>
+    <footer class="footer">
+        <nav class="social">
+            <a class="social__item" href="https://www.linkedin.com/in/sanchezdev1906/">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a class="social__item" href="https://github.com/sanchezdev-1906">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a class="social__item" href="https://twitter.com/sanchezdev1906">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+        </nav>
+        <p>
+            &copy;Dover 2023
+        </p>
+    </footer>
     <script src="./scripts/jquery.js"></script>
     <script src="./scripts/base.js"></script>
     <script src="./index.js"></script>

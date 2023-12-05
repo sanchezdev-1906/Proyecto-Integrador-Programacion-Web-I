@@ -1,3 +1,5 @@
+@import url("/components/header/header.css");
+@import url("/components/footer/footer.css");
 @font-face {
   font-family: Inter;
   src: url("/assets/fonts/Inter/Inter-VariableFont_slnt.ttf");
